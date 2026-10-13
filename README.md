@@ -1,14 +1,27 @@
 # PWR — Web Development & Digital Solutions
 
-PWR is a digital solutions company based in Beed, Maharashtra, India. We provide customized website development, web applications, UI/UX design, and digital solutions to help businesses grow online.
+**PWR** is a digital solutions company based in Beed, Maharashtra, India. We provide customized website development, web applications, UI/UX design, and digital solutions to help businesses grow online.
+
+## Live Demo
+
+🚀 **Website:** [[Visit PWR](YOUR_LIVE_WEBSITE_URL)](https://prohan2062-star.github.io/Myprojet/)
+
+## Website Preview
+
+<!-- Upload a website screenshot named preview.png to your repository root -->
+
+[![PWR Website Preview](./preview.png)](YOUR_LIVE_WEBSITE_URL)
+
+*Click the preview image to visit the live website.*
 
 ## About the Project
 
-This project is the official website for PWR, featuring a modern company landing page, service packages, project inquiry form, and an administration interface.
+This project is the official website for PWR, featuring a modern company landing page, service packages, a project inquiry form, and an administration interface.
 
 ## Features
 
 ### Main Website
+
 - Modern and responsive company website
 - Company introduction and services section
 - Search and filter interface for service packages
@@ -18,6 +31,7 @@ This project is the official website for PWR, featuring a modern company landing
 - Login and Create Account navigation
 
 ### Admin Panel
+
 - Dedicated admin login page
 - Administration dashboard interface
 - Registered users table
@@ -30,7 +44,15 @@ This project is the official website for PWR, featuring a modern company landing
 - CSS3
 - JavaScript (ES6 Modules)
 - Google Maps Embed
-- Firebase integration may be used for authentication and database functionality, depending on the implementation of the supporting JavaScript files.
+- Firebase integration for authentication and database functionality, if configured in the supporting JavaScript files
+
+## Project Status
+
+**Currently Under Development**
+
+Development of the PWR website is ongoing. New features, improvements, and functionality are being worked on and will be added as the project progresses.
+
+Some features may be incomplete or unavailable during development.
 
 ## Project Structure
 
@@ -50,20 +72,23 @@ PWR/
 │   │   └── admin.js
 │   └── img/
 │       └── logo.png
+├── preview.png
 └── README.md
 ```
 
-*Note: The structure above includes supporting files referenced by the HTML pages. Add the files that are present in your actual project.*
+*Note: This structure represents the expected project organization. Include only the files and folders that exist in your actual repository.*
 
 ## Getting Started
 
 ### 1. Clone the Repository
 
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
+
 ```bash
 git clone YOUR_GITHUB_REPOSITORY_URL
 ```
 
-### 2. Open the Project
+### 2. Open the Project Folder
 
 ```bash
 cd PWR
@@ -73,9 +98,15 @@ cd PWR
 
 Open `index.html` in your browser or use the Live Server extension in Visual Studio Code.
 
-### 4. Configure Authentication
+### 4. Configure Firebase (If Applicable)
 
-If the project uses Firebase, configure your Firebase project and authentication settings in the appropriate JavaScript files before using the login and administration features.
+If Firebase is used for authentication or database functionality:
+
+- Configure the Firebase project.
+- Add the appropriate Firebase configuration to the relevant JavaScript files.
+- Enable the required authentication methods.
+- Configure Firestore security rules.
+- Test login, registration, and admin access before deployment.
 
 Never publish private credentials, service account keys, or other secrets in a public repository.
 
@@ -83,9 +114,9 @@ Never publish private credentials, service account keys, or other secrets in a p
 
 **PWR — Web Development & Digital Solutions**
 
-- Location: Beed, Maharashtra, India
-- Email: pwrpvtltd@gmail.com
-- Phone: +91 8275725837
+- **Location:** Beed, Maharashtra, India
+- **Email:** [pwrpvtltd@gmail.com](mailto:pwrpvtltd@gmail.com)
+- **Phone:** [+91 8275725837](tel:+918275725837)
 
 ## Founder
 
@@ -94,17 +125,8 @@ CEO & Founder, PWR
 
 ## License
 
-Choose and add a suitable license before distributing or reusing this project.
+No license has been specified yet. Add a suitable license file if you intend to define how others may use, modify, or distribute this project.
 
+---
 
-## Project Status
-
-**Status: Under Development**
-
-The PWR website is currently under development. Additional features, improvements, and functionality are being actively worked on.
-
-The project is continuously evolving, with plans to improve the user experience, expand website features, and enhance the administration system.
-
-Some features may be incomplete or unavailable while development is in progress.
-
-More updates and improvements will be added in future versions.
+© 2026 PWR — Web Development & Digital Solutions. All rights reserved.
