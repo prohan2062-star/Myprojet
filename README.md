@@ -10,7 +10,7 @@
 
 <!-- Upload a website screenshot named preview.png to your repository root -->
 
-[![PWR Website Preview](./preview.png)](YOUR_LIVE_WEBSITE_URL)
+[![PWR Website Preview](./preview.png)](PWR Website Preview/3.png)
 
 *Click the preview image to visit the live website.*
 
