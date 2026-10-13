@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Admin Dashboard | PWR</title>
+
+    <link rel="stylesheet"
+        href="assets/css/styles.css">
+
+</head>
+
+
+<body class="admin-page">
+
+
+    <!-- SIDEBAR -->
+
+    <aside class="admin-sidebar">
+
+
+        <a class="logo" href="index.html">
+
+            <span class="logo-mark">P</span>
+
+            <strong>pwr.</strong>
+
+        </a>
+
+
+        <nav class="admin-menu">
+
+            <a href="#dashboard"
+                class="active">
+
+                Dashboard
+
+            </a>
+
+
+            <a href="#users">
+
+                Users
+
+            </a>
+
+
+            <a href="#projects">
+
+                Projects
+
+            </a>
+
+
+            <a href="#inquiries">
+
+                Inquiries
+
+            </a>
+
+        </nav>
+
+
+        <button
+            class="logout-btn"
+            id="logoutBtn">
+
+            Logout →
+
+        </button>
+
+
+    </aside>
+
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="admin-content">
+
+
+        <div
+            class="admin-topbar"
+            id="dashboard">
+
+
+            <div>
+
+                <p class="eyebrow blue">
+                    PWR Administration
+                </p>
+
+
+                <h1>
+                    Dashboard
+                </h1>
+
+            </div>
+
+
+            <div
+                class="admin-user"
+                id="adminName">
+
+                Admin
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- STATISTICS -->
+
+        <section class="dashboard-grid">
+
+
+            <div class="dashboard-card blue-card">
+
+                <small>
+                    Total Users
+                </small>
+
+                <h2 id="totalUsers">
+                    0
+                </h2>
+
+            </div>
+
+
+
+            <div class="dashboard-card lime-card">
+
+                <small>
+                    Active Projects
+                </small>
+
+                <h2 id="totalProjects">
+                    0
+                </h2>
+
+            </div>
+
+
+
+            <div class="dashboard-card orange-card">
+
+                <small>
+                    New Inquiries
+                </small>
+
+                <h2 id="totalInquiries">
+                    0
+                </h2>
+
+            </div>
+
+
+
+            <div class="dashboard-card">
+
+                <small>
+                    Services
+                </small>
+
+                <h2>
+                    6
+                </h2>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- USERS -->
+
+        <section
+            class="admin-table-box"
+            id="users">
+
+
+            <h2>
+                Registered Users
+            </h2>
+
+
+            <table class="admin-table">
+
+
+                <thead>
+
+                    <tr>
+
+                        <th>Name</th>
+
+                        <th>Email</th>
+
+                        <th>Role</th>
+
+                        <th>Created</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="usersTable">
+
+                    <tr>
+
+                        <td colspan="4">
+
+                            Loading users...
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+
+
+            </table>
+
+
+        </section>
+
+
+    </main>
+
+
+    <script
+        type="module"
+        src="assets/js/admin.js">
+    </script>
+
+
+</body>
+
+</html>
